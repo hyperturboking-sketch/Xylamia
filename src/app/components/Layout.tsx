@@ -7,7 +7,7 @@ export function Layout() {
   const location = useLocation();
 
   const navItems = [
-    { path: "/", icon: GraduationCap, label: "Dashboard" },
+    { path: "/dashboard", icon: GraduationCap, label: "Dashboard" },
     { path: "/chat", icon: MessageSquare, label: "AI Assistant" },
     { path: "/universities", icon: School, label: "Universities" },
     { path: "/profile", icon: User, label: "Profile" },
